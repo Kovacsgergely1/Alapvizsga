@@ -1,0 +1,53 @@
+body {
+    color: black; /*betűszín*/
+    background-color: black; /*háttérszín*/
+    background-image: url("valami"); /*háttérkép*/
+    background-size: cover; /*háttér méret - lefedő*/
+    background-repeat: no-repeat; /*ismétlés - nincs*/
+    background-repeat: repeat; /*ismétlés*/
+    background-repeat: repeat-x; /*ismétlés - horizontális*/
+    background-repeat: repeat-y; /*ismétlés - vertikális*/
+
+    font-size: 15px; /*betűméret*/
+    font-weight: bold; /*betű vastagság - félkövér*/
+    font-family: sans-serif; /*betűtípus*/
+    font-style: italic; /*betű stílus - dőlt*/
+    font-variant: small-caps; /*kis kapitális*/
+    text-align: center; /*szöveg igazítás - középre*/
+    text-decoration: underline; /*szöveg dekoráció - aláhúzott*/
+    text-transform: uppercase; /*csupa nagybetűs*/ 
+    text-transform: lowercase; /*csupa kisbetűs*/ 
+    text-indent: 10px; /*első sor behúzása*/
+
+    width: 200px; /*szélesség*/
+    max-width: 90%;
+    min-width: none;
+    height: 200px; /*magasság*/
+    max-height: 200px;
+    min-height: 100px;
+    margin: 15px; /*margó*/
+    margin: felső jobb alsó bal;
+    margin: auto; /*autó margó körbe - pl. div középre igazítása*/
+    /*margin-top,margin-bottom...*/
+    padding: 15px; /*belső margó*/
+   
+    /*ugyan az, mint a margin*/
+    float: left; /*úsztatás - pl. képeket balra vagy jobbra*/
+    clear: both; /*tulajdonképpen hasábtörés, hogy újra 1 legyen*/
+    border: 1px solid black; /*szegély körbe - 1px folytonos fekete*/
+    border-top: 1px dotted black; /*felső szegély - 1px pontozott fekete*/
+    border-bottom: 2px dashed black; /*alsó szegély - 2px szaggatott fekete*/
+    border-left: 1px solid red; /*bal szegély - 1px folytonos piros*/
+    border-right: 1px solid red; /*jobb szegély - 1px folytonos piros*/
+    border-radius: 10px; /*szegély lekerekítés*/
+
+    box-shadow: 5px 5px 5px #7F7F7F; /*árnyékolás*/
+}
+
+.osztaly{
+    width: auto;
+}
+
+#azonosito{
+    width: auto;
+}
