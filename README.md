@@ -25,7 +25,8 @@ ipv6 unicast-routing
 show ip route
 ip route 0.0.0.0 0.0.0.0 se0/0/1 192.168.1.0
 copy startup-config tftp: 123.123.123.123
-crypto key generate rsa router.net
+ip-domain domain.net
+crypto key generate rsa
 
 
 
